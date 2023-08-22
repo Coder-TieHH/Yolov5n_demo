@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/c_api.h
+stdint.h
+-
+stddef.h
+-
+
+../include/timer.hpp
+chrono
+-
+
+../include/types.hpp
+
+../include/yolo_layer.hpp
+types.hpp
+../include/types.hpp
+c_api.h
+../include/c_api.h
+vector
+-
+
+/home/rpdzkj/Desktop/yolov5n_demo/src/yolo_layer.cpp
+yolo_layer.hpp
+/home/rpdzkj/Desktop/yolov5n_demo/src/yolo_layer.hpp
+timer.hpp
+/home/rpdzkj/Desktop/yolov5n_demo/src/timer.hpp
+algorithm
+-
+cmath
+-
+cstdio
+-
+cstring
+-
+vector
+-
+opencv2/opencv.hpp
+-
+
